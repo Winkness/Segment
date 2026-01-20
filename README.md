@@ -1,4 +1,5 @@
 ## DSAM-Seg: Towards Limited Labeled Data and Cross-Region Road Extraction by Parameter-Efficient Transfer Learning
+![framework](./fig1_01.png)
 ## News
 -2026/1/21-30 Code is being organized and uploaded.
 ## Requirements
