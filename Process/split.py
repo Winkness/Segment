@@ -77,9 +77,9 @@ def split_dataset(images_dir, masks_dir, train_count, val_count, test_count, out
 
 if __name__ == "__main__":
     # 配置参数
-    IMAGES_DIR = "/media/ubantu/7EAA5875AA582C41/Track-WH/Track-code/Hyper-CLS/HyperspectralSeg/deepglobe/images"  # 替换为实际图像文件夹路径
-    MASKS_DIR = "/media/ubantu/7EAA5875AA582C41/Track-WH/Track-code/Hyper-CLS/HyperspectralSeg/deepglobe/masks"  # 替换为实际掩码文件夹路径
-    OUTPUT_DIR = "/media/ubantu/7EAA5875AA582C41/Track-WH/Track-code/Hyper-CLS/HyperspectralSeg/deepglobe"  # 替换为实际输出文件夹路径
+    IMAGES_DIR = "./deepglobe/images"  # 替换为实际图像文件夹路径
+    MASKS_DIR = "./deepglobe/masks"  # 替换为实际掩码文件夹路径
+    OUTPUT_DIR = "./deepglobe"  # 替换为实际输出文件夹路径
 
     # 数据集划分数量
     TRAIN_COUNT = 4980
