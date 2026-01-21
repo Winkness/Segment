@@ -20,6 +20,11 @@ pip install -r requirements.txt
 - [Massachusetts](https://www.cs.toronto.edu/~vmnih/data/)
 - [SpaceNet-Test, From WHU](https://rsidea.whu.edu.cn/GRSet.htm)
 - [RoadTracer-Test, From WHU](https://rsidea.whu.edu.cn/GRSet.htm)
+## Preprocessing Datasets
+```shell
+cd Process
+python split.py
+```
 ## Train
 ```shell
 cd Segment
